@@ -3,14 +3,20 @@ Web版Teamsの表示を少し見やすくするChromeの拡張機能です．
 
 ## ダウンロード
 https://github.com/salieri256/TeamsColorBooster/blob/main/TeamsColorBooster.zip?raw=true
+
 ダウンロードしたら，解凍しておいてください．
 
 ## 導入方法
 ![image](https://user-images.githubusercontent.com/56764525/105284958-cd564e80-5bf6-11eb-832f-4e0044d06143.png)
+
 Step1. chrome://extensions/ にアクセス
+
 Step2. 「デベロッパーモード」を有効にする
+
 Step3. 「パッケージ化されていない拡張機能を読み込む」を選択
+
 Step4. "TeamsColorBooster"フォルダを選択
+
 Step5. 拡張機能が読み込まれれば完了
 
 ## 主な機能
