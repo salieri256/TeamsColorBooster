@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "TeamsColorBooster",
+    "version": "1.0.0",
+    "author": "salieri256",
+    "description": "Web上のTeamsのチーム通知を見やすくするChromeの拡張機能です．",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": ["https://teams.microsoft.com/*"],
+            "css": ["teams/style.css"]
+        }
+    ]
+}

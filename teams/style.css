@@ -1,0 +1,10 @@
+/* 未読部屋の色 */
+.team-name-unread {
+    color: red !important;
+}
+
+/* 自分がリアクションしているときの色 */
+.message-actions-reacted {
+    color: red !important;
+    font-size: 20px !important;
+}
