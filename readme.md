@@ -1,7 +1,7 @@
 # TeamsColorBooster
 Web版Teamsの表示を少し見やすくするChromeの拡張機能です．
 
-<img src="https://user-images.githubusercontent.com/56764525/105291550-004f1100-5bfc-11eb-961f-a30952fe137b.png" height="200px"> <img src="https://user-images.githubusercontent.com/56764525/105292846-515f0500-5bfc-11eb-8f2d-392dfcd1cc37.png" height="200px">
+<img src="https://user-images.githubusercontent.com/56764525/105291550-004f1100-5bfc-11eb-961f-a30952fe137b.png" height="200px"> <img src="https://user-images.githubusercontent.com/56764525/105299456-edd5d700-5bfd-11eb-8e59-aae7dc63ec9a.png" height="200px">
 
 ## ダウンロード
 [zipファイル](https://github.com/salieri256/TeamsColorBooster/blob/main/TeamsColorBooster.zip?raw=true)
