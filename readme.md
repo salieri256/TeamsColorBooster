@@ -9,7 +9,7 @@ Web版Teamsの表示を少し見やすくするChromeの拡張機能です．
 ## 導入方法
 ![image](https://user-images.githubusercontent.com/56764525/105284958-cd564e80-5bf6-11eb-832f-4e0044d06143.png)
 
-Step1. [Chrome Extensions](chrome://extensions/) にアクセス
+Step1. chrome://extensions/ にアクセス
 
 Step2. 「デベロッパーモード」を有効にする
 
