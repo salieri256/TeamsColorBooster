@@ -8,7 +8,7 @@
     "content_scripts": [
         {
             "matches": ["https://teams.microsoft.com/*"],
-            "css": ["teams/style.css"]
+            "css": ["style.css"]
         }
     ]
 }
