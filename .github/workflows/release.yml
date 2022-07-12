@@ -13,7 +13,7 @@ jobs:
 
       - name: zip
         run: |
-          zip -r teams-ext.zip ./ -x '*.git*'
+          zip -r teams-ext.zip ./ -x '*.git*' 'LICENSE' '*.md'
 
       - name: release
         uses: softprops/action-gh-release@v1
