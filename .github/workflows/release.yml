@@ -1,0 +1,20 @@
+name: release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  zip-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: zip
+        uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r teams-ext.zip ./
+
+      - name: release
+        uses: release-drafter/release-drafter@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
