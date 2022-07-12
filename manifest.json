@@ -4,11 +4,17 @@
     "version": "1.0.0",
     "author": "salieri256",
     "description": "Web上のTeamsのチーム通知を見やすくするChromeの拡張機能です．",
-    "permissions": [],
+    "permissions": ["storage", "tabs"],
+    "background": {
+        "service_worker": "./background.js"
+    },
+    "action": {
+        "default_popup": "./popup.html"
+    },
     "content_scripts": [
         {
             "matches": ["https://teams.microsoft.com/*"],
-            "css": ["style.css"]
+            "js": ["./content.js"]
         }
     ]
 }
